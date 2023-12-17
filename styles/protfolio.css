@@ -40,10 +40,12 @@ nav{
 nav li{
     list-style: none;
     margin-left: 50px;
+    font-size: 20px;
 }
 nav ul{
     margin: 50px 200px;
     display: flex;
+    align-items: center;
 }
 .nav-title{
     font-weight: 800;
@@ -69,6 +71,9 @@ nav ul{
 .banner-description{
     color: #757575;
     margin-bottom: 20px;
+}
+.banner .profile-pic{
+    width: 500px;
 }
 
 main{
