@@ -108,11 +108,10 @@ nav ul {
 main {
     max-width: 1140px;
     margin: 0 auto;
-
+    margin-top: 130px;
 }
 
 .about {
-    margin-top: 130px;
     background: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -123,6 +122,8 @@ main {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
+
 }
 
 .section-description {
@@ -147,9 +148,8 @@ main {
 
 /* skill section */
 .skill-section {
-    margin-top: 30px;
+    margin-top: 130px;
     border-radius: 10px;
-
     text-align: center;
 }
 
@@ -181,6 +181,39 @@ main {
     display: block;
    text-align: start;
    overflow: hidden;
-
-
+}
+/* resume section */
+.resume-section{
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-item-institue{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-description, .resume-item-institue{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
